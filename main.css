@@ -129,11 +129,19 @@ body {
     .nav-loja {
         font-size: 18px;
     }
+
+    #cabecalho .nav .nav-link:hover {
+        color: #fff; 
+    }
 }
 
 @media (max-width: 767px) {
     .nav-loja {
         font-size: 16px;
+    }
+
+    #cabecalho .nav .nav-link:hover {
+        color: #fff; 
     }
 }
 
